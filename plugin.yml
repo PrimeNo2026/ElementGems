@@ -1,0 +1,14 @@
+name: ElementGems
+version: 1.0.0
+main: elementgems.ElementGems
+api-version: '26.3'
+description: Vier einzigartige Element-Gems mit Faehigkeiten
+commands:
+  gems:
+    description: Gem-Verwaltung fuer Admins (status, reset, give)
+    usage: /gems <status|reset|give> [Farbe] [Spieler]
+    permission: elementgems.admin
+permissions:
+  elementgems.admin:
+    description: Darf Gems verwalten
+    default: op
