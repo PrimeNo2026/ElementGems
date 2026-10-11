@@ -33,6 +33,7 @@ public final class GemItems {
         lore.add(line("Rechtsklick: " + t.ability1, NamedTextColor.GRAY));
         lore.add(line("Shift + Rechtsklick: " + t.ability2, NamedTextColor.GRAY));
         lore.add(line("Passiv: " + t.passive, NamedTextColor.GRAY));
+        if (t == GemType.BLUE) lore.add(line("Bogen/Armbrust ohne Pfeile: unendlich Wasserpfeile", NamedTextColor.GRAY));
         lore.add(Component.empty());
         lore.add(line("Einzigartig - es gibt nur dieses eine Exemplar", NamedTextColor.DARK_GRAY));
         m.lore(lore);
