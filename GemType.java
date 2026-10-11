@@ -10,13 +10,13 @@ public enum GemType {
             "Feuerring", "Feuerball", "Feuerresistenz", "ring", "fireball",
             "Besuche alle fünf Nether-Biome"),
     BLUE("blue", "Blauer Gem", "Blau", NamedTextColor.AQUA, Material.BLUE_STAINED_GLASS,
-            "Wasserpfeil", "Wasser-Boost", "Wasseratmung", "arrow", "boost",
+            "Flutwelle", "Wasser-Boost", "Wasseratmung und Delfingunst", "wave", "boost",
             "Erhalte den Fortschritt \"Bring Home the Beacon\""),
     YELLOW("yellow", "Gelber Gem", "Gelb", NamedTextColor.YELLOW, Material.YELLOW_STAINED_GLASS,
-            "Blitzschlag", "Teleport", "Eile II", "lightning", "teleport",
+            "Blitzschlag", "Teleport", "Eile II und Speed", "lightning", "teleport",
             "Verwandle einen Dorfbewohner mit einem Channeling-Dreizack in eine Hexe"),
     PURPLE("purple", "Lila Gem", "Lila", NamedTextColor.DARK_PURPLE, Material.PURPLE_STAINED_GLASS,
-            "Skelette beschwören", "Erblinden", "Immun gegen Gift und Wither", "skeletons", "blind",
+            "Skelett-Krieger beschwören", "Erblinden", "Immun gegen Gift und Wither", "skeletons", "blind",
             "Respawne den Enderdrachen und besiege ihn");
 
     public final String id;
