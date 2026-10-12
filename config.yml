@@ -62,7 +62,7 @@ yellow:
   paralyze-seconds: 2.0
   teleport-distance: 35
   haste-level: 2
-  speed-level: 1
+  speed-level: 0
 
 purple:
   skeleton-count: 4
